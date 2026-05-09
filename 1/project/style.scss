@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Neue";
+    src: url("D:\easy assignment 1\assests\fonts\NeueMontreal-Regular.otf");
+}
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Neue", sans-serif;
+    width: 100%;
+    height: 100%;
+    color:#580005;
+}
+
+nav{
+    width: 100%;
+    height: 12%;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1.25rem;
+    .topbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+    .midbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+main{
+    width: 100%;
+    height: 60%;
+    display: flex;
+
+    .ourwork{
+        padding:20px;
+        height: 100%;
+        width:40%;
+        display: flex;
+        align-items: flex-end;
+        a{
+            color:#580005;
+            font-weight: 400;
+            font-size: 1.25rem;
+        }
+    }
+    .body{
+        height:100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        .images{
+            height: 100%;
+            width: 100%;
+            gap:20px;
+            display: flex;
+            align-items: flex-end;
+            img{
+            width:200px;
+            height:250px;
+            object-fit: cover;
+            border-radius: 20px;
+            }
+        }
+    }
+}
+ pre{
+    font-family: "Neue", sans-serif;
+ }
+
+    .subbar{
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
